@@ -16,7 +16,7 @@ import Airdrop from "./Airdrop";
 
 const App = () => {
   return (<div className="flex items-center justify-center h-screen" >
-    <ConnectionProvider endpoint={"https://api.mainnet.solana.com"}>
+    <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
       <WalletProvider wallets={[]} autoConnect>
         <WalletModalProvider>
           <div className="flex flex-col items-center space-y-5 p-6 bg-gray-100 rounded-lg shadow-lg">
