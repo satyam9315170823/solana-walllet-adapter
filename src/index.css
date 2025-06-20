@@ -5,3 +5,6 @@
 body{
   background-color: rgb(30, 39, 59);
 }
+body {
+  @apply font-inter bg-dark text-light;
+}
