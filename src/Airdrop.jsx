@@ -70,7 +70,7 @@ const Airdrop = () => {
           Airdrop
         </button>
       </div>
-      <Trans />
+      
     </div>
   );
 };
